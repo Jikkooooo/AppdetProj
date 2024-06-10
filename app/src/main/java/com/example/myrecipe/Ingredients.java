@@ -98,10 +98,7 @@ public class Ingredients extends AppCompatActivity implements NavigationView.OnN
                 i = new Intent(this, Home.class);
                 startActivity(i);
                 break;
-            case R.id.nav_recipe:
-                i = new Intent(this, Recipe.class);
-                startActivity(i);
-                break;
+
             case R.id.nav_ingredients:
                 break;
         }

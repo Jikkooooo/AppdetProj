@@ -1,11 +1,9 @@
 package com.example.myrecipe;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
@@ -15,16 +13,8 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentPagerAdapter;
-import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.tabs.TabLayout;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Home extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener{
 
@@ -88,12 +78,12 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         switch (menuItem.getItemId()) {
             case R.id.nav_home:
                 break;
-            case R.id.nav_recipe:
-                i = new Intent(this, Recipe.class);
-                startActivity(i);
-                break;
             case R.id.nav_ingredients:
                 i = new Intent(this, Ingredients.class);
+                startActivity(i);
+                break;
+            case R.id.nav_upload:
+                i = new Intent(this, DataEntryActivity.class);
                 startActivity(i);
                 break;
         }
@@ -116,13 +106,14 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
                 startActivity(intent2);
                 break;
             case R.id.cv3:
-                Intent  intent3 = new Intent(this, Fish.class);
+                Intent  intent3 = new Intent(this, Seafood.class);
                 startActivity(intent3);
                 break;
             case R.id.cv4:
-                Intent intent4= new Intent(this, Meat.class);
+                Intent intent4= new Intent(this, Dessert.class);
                 startActivity(intent4);
                 break;
         }
+
     }
 }

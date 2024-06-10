@@ -46,7 +46,7 @@ public class RecipeFragment extends Fragment {
                     public void onClick(View v) {
                         for (Dish dish : allDishes) {
                             if (dish.getIngredient().equals(recipe)) {
-                                Intent intent = new Intent(getActivity(), RecipeDetailActivity.class);
+                                Intent intent = new Intent(getActivity(), ViewRecipe.class);
                                 intent.putExtra("recipeName", dish.getIngredient());
                                 intent.putStringArrayListExtra("ingredients", new ArrayList<>(dish.getAllIngredients()));
                                 startActivity(intent);
@@ -58,8 +58,8 @@ public class RecipeFragment extends Fragment {
                 recipesButtonsLayout.addView(button);
             }
         }
-
         return view;
+
     }
 
     public void updateRecipesList(List<String> recipes) {
@@ -82,7 +82,7 @@ public class RecipeFragment extends Fragment {
 
                             for (Dish dish : allDishes) {
                                 if (dish.getIngredient().equals(recipe)) {
-                                    Intent intent = new Intent(getActivity(), RecipeDetailActivity.class);
+                                    Intent intent = new Intent(getActivity(), ViewRecipe.class);
                                     intent.putExtra("recipeName", dish.getIngredient());
                                     intent.putStringArrayListExtra("ingredients", new ArrayList<>(dish.getAllIngredients()));
                                     startActivity(intent);

@@ -13,6 +13,15 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".Viewer"
+            android:exported="false" />
+        <activity
+            android:name=".DataEntryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Dessert"
+            android:exported="false" />
+        <activity
             android:name=".ViewRecipeActivity"
             android:exported="false" />
         <activity
@@ -28,7 +37,7 @@
             android:name=".Any"
             android:exported="false" />
         <activity
-            android:name=".Fish"
+            android:name=".Seafood"
             android:exported="false" />
         <activity
             android:name=".Veggies"

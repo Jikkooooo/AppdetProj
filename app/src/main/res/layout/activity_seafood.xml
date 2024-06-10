@@ -46,7 +46,7 @@
                 android:layout_height="200dp"
                 android:layout_marginEnd="4dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/veggies_header"
+                android:src="@drawable/fish_header"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
@@ -73,24 +73,24 @@
                         android:padding="8dp">
 
                         <TextView
-                            android:id="@+id/tvVeggies1"
+                            android:id="@+id/tvFish1"
                             android:layout_width="183dp"
                             android:layout_height="210dp"
                             android:gravity="bottom"
                             android:paddingTop="10dp"
-                            android:text="Ampalaya Con Carne"
+                            android:text="Bangus Sinigang"
                             android:textColor="#755CC8"
                             android:fontFamily="@font/baloo_bhaijaan"
                             android:textAlignment="center"
-                            android:textSize="18dp" />
+                            android:textSize="23dp" />
 
                         <ImageView
-                            android:id="@+id/ivVeggies1"
+                            android:id="@+id/ivFish1"
                             android:layout_width="183dp"
                             android:layout_height="190dp"
                             android:paddingBottom="27dp"
                             android:scaleType="fitXY"
-                            android:src="@drawable/ampalayaconcarne"/>
+                            android:src="@drawable/sinigangnabangus"/>
 
                     </RelativeLayout>
 
@@ -110,11 +110,11 @@
                         android:padding="8dp">
 
                         <TextView
-                            android:id="@+id/tvVeggies2"
+                            android:id="@+id/tvFish2"
                             android:layout_width="183dp"
                             android:layout_height="210dp"
                             android:gravity="bottom"
-                            android:text="Torta"
+                            android:text="Escabeche"
                             android:paddingTop="10dp"
                             android:textColor="#755CC8"
                             android:fontFamily="@font/baloo_bhaijaan"
@@ -122,12 +122,12 @@
                             android:textSize="25dp"/>
 
                         <ImageView
-                            android:id="@+id/ivVeggies2"
+                            android:id="@+id/ivFish2"
                             android:layout_width="183dp"
                             android:layout_height="190dp"
                             android:paddingBottom="27dp"
                             android:scaleType="fitXY"
-                            android:src="@drawable/torta" />
+                            android:src="@drawable/escabeche" />
 
                     </RelativeLayout>
 
@@ -157,115 +157,33 @@
                         android:padding="8dp">
 
                         <TextView
-                            android:id="@+id/tvVeggies3"
+                            android:id="@+id/tvFish3"
                             android:layout_width="183dp"
                             android:layout_height="210dp"
                             android:gravity="bottom"
                             android:paddingTop="10dp"
-                            android:text="Pancit Canton"
+                            android:text="Kinilaw"
                             android:textColor="#755CC8"
                             android:fontFamily="@font/baloo_bhaijaan"
                             android:textAlignment="center"
                             android:textSize="25dp" />
 
                         <ImageView
-                            android:id="@+id/ivVeggies3"
+                            android:id="@+id/ivFish3"
                             android:layout_width="183dp"
                             android:layout_height="190dp"
                             android:paddingBottom="27dp"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/pancitcanton" />
-
-                    </RelativeLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="202dp"
-                    android:layout_height="match_parent"
-                    android:id="@+id/cv4"
-                    app:cardCornerRadius="3dp"
-                    app:cardElevation="4dp"
-                    app:cardUseCompatPadding="true">
-
-                    <RelativeLayout
-                        android:layout_width="195dp"
-                        android:layout_height="250dp"
-                        android:padding="8dp">
-
-                        <TextView
-                            android:id="@+id/tvVeggies4"
-                            android:layout_width="183dp"
-                            android:layout_height="210dp"
-                            android:gravity="bottom"
-                            android:paddingTop="10dp"
-                            android:text="Pancit Malabon"
-                            android:textColor="#755CC8"
-                            android:fontFamily="@font/baloo_bhaijaan"
-                            android:textAlignment="center"
-                            android:textSize="25dp" />
-
-                        <ImageView
-                            android:id="@+id/ivVeggies4"
-                            android:layout_width="176dp"
-                            android:layout_height="190dp"
-                            android:paddingBottom="27dp"
-                            android:src="@drawable/pancitmalabon"
-                            android:scaleType="fitXY"
-                            />
-
-                    </RelativeLayout>
-
-                </androidx.cardview.widget.CardView>
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/lenearlayer3"
-                android:layout_width="404dp"
-                android:layout_height="262dp"
-                android:layout_marginTop="8dp"
-                android:orientation="horizontal"
-                app:layout_constraintTop_toBottomOf="@+id/lenearlayer2"
-                tools:layout_editor_absoluteX="3dp">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="202dp"
-                    android:layout_height="match_parent"
-                    android:id="@+id/cv5"
-                    app:cardCornerRadius="3dp"
-                    app:cardElevation="4dp"
-                    app:cardUseCompatPadding="true">
-
-                    <RelativeLayout
-                        android:layout_width="195dp"
-                        android:layout_height="250dp"
-                        android:padding="8dp">
-
-                        <TextView
-                            android:id="@+id/tvVeggies5"
-                            android:layout_width="183dp"
-                            android:layout_height="210dp"
-                            android:gravity="bottom"
-                            android:paddingTop="10dp"
-                            android:textColor="#755CC8"
-                            android:fontFamily="@font/baloo_bhaijaan"
-                            android:text="Ginataang Langka"
-                            android:textAlignment="center"
-                            android:textSize="20dp" />
-
-                        <ImageView
-                            android:id="@+id/ivVeggies5"
-                            android:layout_width="176dp"
-                            android:layout_height="190dp"
-                            android:paddingBottom="27dp"
-                            android:src="@drawable/ginataanglangka"
+                            android:src="@drawable/kinilaw"
                             android:scaleType="fitXY" />
 
                     </RelativeLayout>
 
                 </androidx.cardview.widget.CardView>
 
+
             </LinearLayout>
+
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>

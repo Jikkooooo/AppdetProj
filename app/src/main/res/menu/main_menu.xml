@@ -8,25 +8,14 @@
             android:title="Home" />
 
         <item
-            android:id="@+id/nav_recipe"
-            android:icon="@drawable/recipe"
-            android:title="Recipes" />
-
-        <item
             android:id="@+id/nav_ingredients"
             android:icon="@drawable/ingredient"
             android:title="Ingredients" />
 
         <item
-            android:id="@+id/nav_random"
+            android:id="@+id/nav_upload"
             android:icon="@drawable/other"
-            android:title="Random" />
+            android:title="Upload" />
     </group>
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_user"
-            android:icon="@drawable/android"
-            android:title="Random" />
-    </group>
 </menu>

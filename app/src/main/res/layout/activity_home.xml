@@ -156,7 +156,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="bottom"
                             android:paddingTop="90dp"
-                            android:text="Fish"
+                            android:text="Seafood"
                             android:textAlignment="center"
                             android:textSize="25dp" />
 

@@ -5,7 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home"
+    tools:context=".Meat"
 
     android:fitsSystemWindows="true"
     tools:openDrawer="end">
@@ -42,14 +42,13 @@
 
             <ImageView
                 android:id="@+id/imageButton3"
-                android:layout_width="448dp"
-                android:layout_height="321dp"
-                android:layout_marginTop="4dp"
+                android:layout_width="412dp"
+                android:layout_height="200dp"
                 android:layout_marginEnd="4dp"
-                android:src="@drawable/header_img"
-                app:layout_constraintEnd_toEndOf="parent"
                 android:scaleType="fitXY"
-                app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+                android:src="@drawable/meat_header"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
             <LinearLayout
                 android:id="@+id/lenearlayer1"
@@ -61,7 +60,7 @@
                 tools:layout_editor_absoluteX="3dp">
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="196dp"
+                    android:layout_width="202dp"
                     android:layout_height="match_parent"
                     android:id="@+id/cv1"
                     app:cardCornerRadius="3dp"
@@ -69,63 +68,66 @@
                     app:cardUseCompatPadding="true">
 
                     <RelativeLayout
-                        android:layout_width="185dp"
-                        android:layout_height="173dp"
+                        android:layout_width="195dp"
+                        android:layout_height="250dp"
                         android:padding="8dp">
 
                         <TextView
                             android:id="@+id/tvMeat1"
                             android:layout_width="183dp"
-                            android:layout_height="wrap_content"
+                            android:layout_height="210dp"
                             android:gravity="bottom"
-                            android:paddingTop="130dp"
+                            android:paddingTop="10dp"
                             android:text="Adobo"
+                            android:textColor="#755CC8"
+                            android:fontFamily="@font/baloo_bhaijaan"
                             android:textAlignment="center"
-                            android:textSize="20dp" />
+                            android:textSize="25dp" />
 
                         <ImageView
                             android:id="@+id/ivMeat1"
-                            android:layout_width="176dp"
-                            android:layout_height="231dp"
-                            android:paddingBottom="25dp"
-                            android:src="@drawable/adobo"
-                            android:scaleType="fitXY" />
+                            android:layout_width="183dp"
+                            android:layout_height="190dp"
+                            android:paddingBottom="27dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/adobo" />
 
                     </RelativeLayout>
 
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="210dp"
-                    android:layout_height="match_parent"
                     android:id="@+id/cv2"
+                    android:layout_width="202dp"
+                    android:layout_height="match_parent"
                     app:cardCornerRadius="3dp"
                     app:cardElevation="4dp"
                     app:cardUseCompatPadding="true">
 
                     <RelativeLayout
-                        android:layout_width="191dp"
-                        android:layout_height="172dp"
+                        android:layout_width="195dp"
+                        android:layout_height="250dp"
                         android:padding="8dp">
 
                         <TextView
                             android:id="@+id/tvMeat2"
-                            android:layout_width="209dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="183dp"
+                            android:layout_height="210dp"
                             android:gravity="bottom"
-                            android:paddingTop="130dp"
-                            android:text="Sinigang"
+                            android:text="Dinuguan"
+                            android:paddingTop="10dp"
+                            android:textColor="#755CC8"
+                            android:fontFamily="@font/baloo_bhaijaan"
                             android:textAlignment="center"
-                            android:textSize="20dp" />
+                            android:textSize="25dp"/>
 
                         <ImageView
                             android:id="@+id/ivMeat2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:paddingBottom="25dp"
-                            android:src="@drawable/sinigangnababoy"
+                            android:layout_width="183dp"
+                            android:layout_height="190dp"
+                            android:paddingBottom="27dp"
                             android:scaleType="fitXY"
-                            />
+                            android:src="@drawable/dinuguan" />
 
                     </RelativeLayout>
 
@@ -142,7 +144,7 @@
                 tools:layout_editor_absoluteX="3dp">
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="196dp"
+                    android:layout_width="202dp"
                     android:layout_height="match_parent"
                     android:id="@+id/cv3"
                     app:cardCornerRadius="3dp"
@@ -150,25 +152,27 @@
                     app:cardUseCompatPadding="true">
 
                     <RelativeLayout
-                        android:layout_width="185dp"
-                        android:layout_height="173dp"
+                        android:layout_width="195dp"
+                        android:layout_height="250dp"
                         android:padding="8dp">
 
                         <TextView
                             android:id="@+id/tvMeat3"
                             android:layout_width="183dp"
-                            android:layout_height="wrap_content"
+                            android:layout_height="210dp"
                             android:gravity="bottom"
-                            android:paddingTop="130dp"
+                            android:paddingTop="10dp"
                             android:text="Lechon"
+                            android:textColor="#755CC8"
+                            android:fontFamily="@font/baloo_bhaijaan"
                             android:textAlignment="center"
-                            android:textSize="20dp" />
+                            android:textSize="25dp" />
 
                         <ImageView
                             android:id="@+id/ivMeat3"
-                            android:layout_width="176dp"
-                            android:layout_height="231dp"
-                            android:paddingBottom="25dp"
+                            android:layout_width="183dp"
+                            android:layout_height="190dp"
+                            android:paddingBottom="27dp"
                             android:src="@drawable/lechon"
                             android:scaleType="fitXY" />
 
@@ -177,7 +181,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="210dp"
+                    android:layout_width="202dp"
                     android:layout_height="match_parent"
                     android:id="@+id/cv4"
                     app:cardCornerRadius="3dp"
@@ -185,25 +189,27 @@
                     app:cardUseCompatPadding="true">
 
                     <RelativeLayout
-                        android:layout_width="191dp"
-                        android:layout_height="172dp"
+                        android:layout_width="195dp"
+                        android:layout_height="250dp"
                         android:padding="8dp">
 
                         <TextView
                             android:id="@+id/tvMeat4"
-                            android:layout_width="209dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="183dp"
+                            android:layout_height="210dp"
                             android:gravity="bottom"
-                            android:paddingTop="130dp"
+                            android:paddingTop="10dp"
                             android:text="Kare-Kare"
+                            android:textColor="#755CC8"
+                            android:fontFamily="@font/baloo_bhaijaan"
                             android:textAlignment="center"
-                            android:textSize="20dp" />
+                            android:textSize="25dp" />
 
                         <ImageView
                             android:id="@+id/ivMeat4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:paddingBottom="25dp"
+                            android:layout_width="176dp"
+                            android:layout_height="190dp"
+                            android:paddingBottom="27dp"
                             android:src="@drawable/karekare"
                             android:scaleType="fitXY"
                             />
@@ -223,7 +229,7 @@
                 tools:layout_editor_absoluteX="3dp">
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="196dp"
+                    android:layout_width="202dp"
                     android:layout_height="match_parent"
                     android:id="@+id/cv5"
                     app:cardCornerRadius="3dp"
@@ -231,25 +237,27 @@
                     app:cardUseCompatPadding="true">
 
                     <RelativeLayout
-                        android:layout_width="185dp"
-                        android:layout_height="173dp"
+                        android:layout_width="195dp"
+                        android:layout_height="250dp"
                         android:padding="8dp">
 
                         <TextView
                             android:id="@+id/tvMeat5"
                             android:layout_width="183dp"
-                            android:layout_height="wrap_content"
+                            android:layout_height="210dp"
                             android:gravity="bottom"
-                            android:paddingTop="130dp"
+                            android:paddingTop="10dp"
+                            android:textColor="#755CC8"
+                            android:fontFamily="@font/baloo_bhaijaan"
                             android:text="Tinola"
                             android:textAlignment="center"
-                            android:textSize="20dp" />
+                            android:textSize="25dp" />
 
                         <ImageView
                             android:id="@+id/ivMeat5"
                             android:layout_width="176dp"
-                            android:layout_height="231dp"
-                            android:paddingBottom="25dp"
+                            android:layout_height="190dp"
+                            android:paddingBottom="27dp"
                             android:src="@drawable/tinola"
                             android:scaleType="fitXY" />
 
@@ -258,7 +266,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="210dp"
+                    android:layout_width="202dp"
                     android:layout_height="match_parent"
                     android:id="@+id/cv6"
                     app:cardCornerRadius="3dp"
@@ -266,28 +274,29 @@
                     app:cardUseCompatPadding="true">
 
                     <RelativeLayout
-                        android:layout_width="191dp"
-                        android:layout_height="172dp"
+                        android:layout_width="195dp"
+                        android:layout_height="250dp"
                         android:padding="8dp">
 
                         <TextView
                             android:id="@+id/tvMeat6"
-                            android:layout_width="209dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="183dp"
+                            android:layout_height="210dp"
                             android:gravity="bottom"
-                            android:paddingTop="130dp"
+                            android:paddingTop="10dp"
                             android:text="Bistek Tagalog"
+                            android:textColor="#755CC8"
+                            android:fontFamily="@font/baloo_bhaijaan"
                             android:textAlignment="center"
-                            android:textSize="20dp" />
+                            android:textSize="25dp" />
 
                         <ImageView
                             android:id="@+id/ivMeat6"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:paddingBottom="25dp"
-                            android:src="@drawable/bistektagalog"
+                            android:layout_width="176dp"
+                            android:layout_height="190dp"
+                            android:paddingBottom="27dp"
                             android:scaleType="fitXY"
-                            />
+                            android:src="@drawable/bistektagalog" />
 
                     </RelativeLayout>
 
@@ -304,7 +313,7 @@
                 tools:layout_editor_absoluteX="3dp">
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="196dp"
+                    android:layout_width="202dp"
                     android:layout_height="match_parent"
                     android:id="@+id/cv7"
                     app:cardCornerRadius="3dp"
@@ -312,26 +321,28 @@
                     app:cardUseCompatPadding="true">
 
                     <RelativeLayout
-                        android:layout_width="185dp"
-                        android:layout_height="173dp"
+                        android:layout_width="195dp"
+                        android:layout_height="250dp"
                         android:padding="8dp">
 
                         <TextView
                             android:id="@+id/tvMeat7"
                             android:layout_width="183dp"
-                            android:layout_height="wrap_content"
+                            android:layout_height="210dp"
                             android:gravity="bottom"
-                            android:paddingTop="130dp"
-                            android:text="Dinuguan"
+                            android:paddingTop="10dp"
+                            android:text="Bicol Express"
+                            android:textColor="#755CC8"
+                            android:fontFamily="@font/baloo_bhaijaan"
                             android:textAlignment="center"
-                            android:textSize="20dp" />
+                            android:textSize="25dp" />
 
                         <ImageView
                             android:id="@+id/ivMeat7"
                             android:layout_width="176dp"
-                            android:layout_height="231dp"
-                            android:paddingBottom="25dp"
-                            android:src="@drawable/dinuguan"
+                            android:layout_height="190dp"
+                            android:paddingBottom="27dp"
+                            android:src="@drawable/bicolexpress"
                             android:scaleType="fitXY" />
 
                     </RelativeLayout>
@@ -339,7 +350,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="210dp"
+                    android:layout_width="202dp"
                     android:layout_height="match_parent"
                     android:id="@+id/cv8"
                     app:cardCornerRadius="3dp"
@@ -347,25 +358,27 @@
                     app:cardUseCompatPadding="true">
 
                     <RelativeLayout
-                        android:layout_width="191dp"
-                        android:layout_height="172dp"
+                        android:layout_width="195dp"
+                        android:layout_height="250dp"
                         android:padding="8dp">
 
                         <TextView
                             android:id="@+id/tvMeat8"
-                            android:layout_width="209dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="183dp"
+                            android:layout_height="210dp"
                             android:gravity="bottom"
                             android:paddingTop="130dp"
                             android:text="Sisig"
+                            android:textColor="#755CC8"
+                            android:fontFamily="@font/baloo_bhaijaan"
                             android:textAlignment="center"
-                            android:textSize="20dp" />
+                            android:textSize="25dp" />
 
                         <ImageView
                             android:id="@+id/ivMeat8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:paddingBottom="25dp"
+                            android:layout_width="176dp"
+                            android:layout_height="190dp"
+                            android:paddingBottom="27dp"
                             android:src="@drawable/sisig"
                             android:scaleType="fitXY"
                             />

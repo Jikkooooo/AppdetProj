@@ -22,7 +22,7 @@ public class Data {
     public static List<Dish> getAllDishes() {
         List<Dish> dishes = new ArrayList<>();
         dishes.add(new Dish("Adobo", Arrays.asList("Chicken ", "Pork", "Soy sauce", "Vinegar", "Garlic", "Bay leaves", "Peppercorns")));
-        dishes.add(new Dish("Sinigang", Arrays.asList("Shrimp", "Fish", "Tamarind", "Vegetables")));
+        dishes.add(new Dish("Sinigang", Arrays.asList("Shrimp", "Seafood", "Tamarind", "Vegetables")));
         dishes.add(new Dish("Lechon", Arrays.asList("Pork", "Salt", "Garlic", "Lemongrass")));
         dishes.add(new Dish("Kare-Kare", Arrays.asList("Oxtail", "Peanut butter", "Annatto seeds", "Eggplant", "String bean")));
 
