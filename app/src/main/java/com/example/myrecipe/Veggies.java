@@ -32,23 +32,43 @@ public class Veggies extends AppCompatActivity implements NavigationView.OnNavig
         switch (v.getId()) {
 
             case R.id.cv1:
-                Intent intent1 = new Intent(this, Veggies.class);
+                Intent intent1 = new Intent(this, Viewer.class);
+                intent1.putExtra("recipeName", "Hako-Halo");
+                intent1.putExtra("ingredients", "Chicken , Pork, Soy sauce, Vinegar, Garlic, Bay leaves, Peppercorns");
+                intent1.putExtra("procedure", "Marinate chicken or pork in a mixture of soy sauce, vinegar, garlic, bay leaves, and peppercorns for at least 30 minutes. Sear the meat in oil until browned. Optionally, sauté onions until translucent. Add reserved marinade, water, and sugar, then simmer until tender. Adjust seasoning and thickness of sauce as desired. Serve hot with rice."); // Example data
+                intent1.putExtra("imageResourceId", R.drawable.halohalo);
                 startActivity(intent1);
                 break;
             case R.id.cv2:
-                Intent intent2 = new Intent(this, Veggies.class);
+                Intent intent2 = new Intent(this, Viewer.class);
+                intent2.putExtra("recipeName", "Hako-Halo");
+                intent2.putExtra("ingredients", "Chicken , Pork, Soy sauce, Vinegar, Garlic, Bay leaves, Peppercorns");
+                intent2.putExtra("procedure", "Marinate chicken or pork in a mixture of soy sauce, vinegar, garlic, bay leaves, and peppercorns for at least 30 minutes. Sear the meat in oil until browned. Optionally, sauté onions until translucent. Add reserved marinade, water, and sugar, then simmer until tender. Adjust seasoning and thickness of sauce as desired. Serve hot with rice."); // Example data
+                intent2.putExtra("imageResourceId", R.drawable.halohalo);
                 startActivity(intent2);
                 break;
             case R.id.cv3:
-                Intent  intent3 = new Intent(this, Veggies.class);
+                Intent intent3 = new Intent(this, Viewer.class);
+                intent3.putExtra("recipeName", "Hako-Halo");
+                intent3.putExtra("ingredients", "Chicken , Pork, Soy sauce, Vinegar, Garlic, Bay leaves, Peppercorns");
+                intent3.putExtra("procedure", "Marinate chicken or pork in a mixture of soy sauce, vinegar, garlic, bay leaves, and peppercorns for at least 30 minutes. Sear the meat in oil until browned. Optionally, sauté onions until translucent. Add reserved marinade, water, and sugar, then simmer until tender. Adjust seasoning and thickness of sauce as desired. Serve hot with rice."); // Example data
+                intent3.putExtra("imageResourceId", R.drawable.halohalo);
                 startActivity(intent3);
                 break;
             case R.id.cv4:
-                Intent intent4= new Intent(this, Veggies.class);
+                Intent intent4= new Intent(this, Viewer.class);
+                intent4.putExtra("recipeName", "Hako-Halo");
+                intent4.putExtra("ingredients", "Chicken , Pork, Soy sauce, Vinegar, Garlic, Bay leaves, Peppercorns");
+                intent4.putExtra("procedure", "Marinate chicken or pork in a mixture of soy sauce, vinegar, garlic, bay leaves, and peppercorns for at least 30 minutes. Sear the meat in oil until browned. Optionally, sauté onions until translucent. Add reserved marinade, water, and sugar, then simmer until tender. Adjust seasoning and thickness of sauce as desired. Serve hot with rice."); // Example data
+                intent4.putExtra("imageResourceId", R.drawable.halohalo);
                 startActivity(intent4);
                 break;
             case R.id.cv5:
-                Intent intent5= new Intent(this, Veggies.class);
+                Intent intent5 = new Intent(this, Viewer.class);
+                intent5.putExtra("recipeName", "Hako-Halo");
+                intent5.putExtra("ingredients", "Chicken , Pork, Soy sauce, Vinegar, Garlic, Bay leaves, Peppercorns");
+                intent5.putExtra("procedure", "Marinate chicken or pork in a mixture of soy sauce, vinegar, garlic, bay leaves, and peppercorns for at least 30 minutes. Sear the meat in oil until browned. Optionally, sauté onions until translucent. Add reserved marinade, water, and sugar, then simmer until tender. Adjust seasoning and thickness of sauce as desired. Serve hot with rice."); // Example data
+                intent5.putExtra("imageResourceId", R.drawable.halohalo);
                 startActivity(intent5);
                 break;
         }
@@ -113,6 +133,11 @@ public class Veggies extends AppCompatActivity implements NavigationView.OnNavig
 
             case R.id.nav_ingredients:
                 i= new Intent(this, Ingredients.class);
+                startActivity(i);
+                break;
+
+            case R.id.nav_upload:
+                i= new Intent(this, DataEntryActivity.class);
                 startActivity(i);
                 break;
 

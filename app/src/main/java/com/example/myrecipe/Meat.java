@@ -58,40 +58,40 @@ public class Meat extends AppCompatActivity implements NavigationView.OnNavigati
             case R.id.cv4:
                 Intent intent4= new Intent(this, Viewer.class);
                 intent4.putExtra("recipeName", "Kare-Kare");
-                intent4.putExtra("ingredients", "Pork\", \" Tamarind\" , \"Radish\", \"Okra\", \"Spinach\"");
-                intent4.putExtra("procedure", "Boil water and add tomatoes and onions. Add pork and cook until tender. Add radish, kangkong, string beans, and green chilies, and cook until vegetables are tender. Dissolve sinigang mix or tamarind in water, add to pot, and simmer. Season with fish sauce or salt. Add water spinach and cook until wilted. Adjust sourness and serve hot with rice.");
+                intent4.putExtra("ingredients", "Oxtail, Peanut butter, Annatto seeds, Eggplant, Stringbeans");
+                intent4.putExtra("procedure", "Boil oxtail or tripe until tender, then set aside meat and reserve broth. Prepare annatto oil, sauté onions and garlic, then add ground peanuts or peanut butter and toasted rice. Gradually add reserved broth, boil, and simmer until thickened. Return meat to pot, season, and simmer. Cook banana heart and eggplant, add string beans and pechay or bok choy, then serve hot with rice and shrimp paste.");
                 intent4.putExtra("imageResourceId", R.drawable.karekare);
                 startActivity(intent4);
                 break;
             case R.id.cv5:
                 Intent intent5= new Intent(this, Viewer.class);
                 intent5.putExtra("recipeName", "Tinola");
-                intent5.putExtra("ingredients", "Chicken \", \"Pork\", \"Soy sauce\", \"Vinegar\", \"Garlic\", \"Bay leaves\", \"Peppercorns");
-                intent5.putExtra("procedure", "Marinate chicken or pork in a mixture of soy sauce, vinegar, garlic, bay leaves, and peppercorns for at least 30 minutes. Sear the meat in oil until browned. Optionally, sauté onions until translucent. Add reserved marinade, water, and sugar, then simmer until tender. Adjust seasoning and thickness of sauce as desired. Serve hot with rice."); // Example data
+                intent5.putExtra("ingredients", "Chicken, Ginger, Garlic, Chili leaves, Green papaya");
+                intent5.putExtra("procedure", "Sauté ginger, garlic, and onion in oil until fragrant and translucent. Add chicken pieces and cook until lightly browned. Pour in fish sauce, then add chicken broth or water. Simmer until the chicken is tender. Add green papaya wedges and cook until tender. Season, add spinach or chili leaves, and cook until wilted. Serve hot with rice, optionally with fish sauce and calamansi.");
                 intent5.putExtra("imageResourceId", R.drawable.tinola);
                 startActivity(intent5);
                 break;
             case R.id.cv6:
                 Intent intent6= new Intent(this, Viewer.class);
                 intent6.putExtra("recipeName", "Bistek Tagalog");
-                intent6.putExtra("ingredients", "Chicken \", \"Pork\", \"Soy sauce\", \"Vinegar\", \"Garlic\", \"Bay leaves\", \"Peppercorns");
-                intent6.putExtra("procedure", "Marinate chicken or pork in a mixture of soy sauce, vinegar, garlic, bay leaves, and peppercorns for at least 30 minutes. Sear the meat in oil until browned. Optionally, sauté onions until translucent. Add reserved marinade, water, and sugar, then simmer until tender. Adjust seasoning and thickness of sauce as desired. Serve hot with rice."); // Example data
+                intent6.putExtra("ingredients", "Beef slices, Soy sauce, Calamansi juice, Onions");
+                intent6.putExtra("procedure", "Marinate beef slices in soy sauce, calamansi juice, garlic, pepper, and sugar for at least 30 minutes. Fry the beef in hot oil until browned, then set aside. Sauté onion rings in the same pan until caramelized. Return beef to the pan, pour in reserved marinade, and simmer until tender. Serve hot with rice, garnished with more onion rings.");
                 intent6.putExtra("imageResourceId", R.drawable.bistektagalog);
                 startActivity(intent6);
                 break;
             case R.id.cv7:
                 Intent intent7= new Intent(this, Viewer.class);
                 intent7.putExtra("recipeName", "Bicol Express");
-                intent7.putExtra("ingredients", "Chicken \", \"Pork\", \"Soy sauce\", \"Vinegar\", \"Garlic\", \"Bay leaves\", \"Peppercorns");
-                intent7.putExtra("procedure", "Marinate chicken or pork in a mixture of soy sauce, vinegar, garlic, bay leaves, and peppercorns for at least 30 minutes. Sear the meat in oil until browned. Optionally, sauté onions until translucent. Add reserved marinade, water, and sugar, then simmer until tender. Adjust seasoning and thickness of sauce as desired. Serve hot with rice."); // Example data
+                intent7.putExtra("ingredients", "Pork belly,Coconut milk, Shrimp paste, Chili peppers, GarlicOnions");
+                intent7.putExtra("procedure", "Cut pork into strips and cook until browned in a large pan. Sauté garlic, onion, and ginger until fragrant. Add shrimp paste and cook briefly. Return pork to the pan, add coconut milk, and simmer. Add Thai chili peppers and green chilies, season, and simmer until pork is tender and sauce thickens. Serve hot.");
                 intent7.putExtra("imageResourceId", R.drawable.bicolexpress);
                 startActivity(intent7);
                 break;
             case R.id.cv8:
                 Intent intent8= new Intent(this, Viewer.class);
                 intent8.putExtra("recipeName", "Sisig");
-                intent8.putExtra("ingredients", "Chicken \", \"Pork\", \"Soy sauce\", \"Vinegar\", \"Garlic\", \"Bay leaves\", \"Peppercorns");
-                intent8.putExtra("procedure", "Marinate chicken or pork in a mixture of soy sauce, vinegar, garlic, bay leaves, and peppercorns for at least 30 minutes. Sear the meat in oil until browned. Optionally, sauté onions until translucent. Add reserved marinade, water, and sugar, then simmer until tender. Adjust seasoning and thickness of sauce as desired. Serve hot with rice."); // Example data
+                intent8.putExtra("ingredients", "Pork face and ears, Onions,Chili peppers, Calamansi juice, Mayonnaise");
+                intent8.putExtra("procedure", "Boil pork belly and pig’s ear until tender, then grill or broil until crispy. Chop into small pieces. Sauté garlic and onions, add chopped pork, and cook until crispy. Season with soy sauce, calamansi juice, pepper, and chopped chilies. Add mayonnaise for a creamy texture, if desired. Serve on a sizzling plate with a cracked egg on top and steamed rice on the side.");
                 intent8.putExtra("imageResourceId", R.drawable.sisig);
                 startActivity(intent8);
                 break;
@@ -119,7 +119,6 @@ public class Meat extends AppCompatActivity implements NavigationView.OnNavigati
 
         //Para maclick yung mga navigation buttons
         navigationView.setNavigationItemSelectedListener(this);
-        navigationView.setCheckedItem(R.id.nav_recipe);
 
         card1 = findViewById(R.id.cv1);
         card2 = findViewById(R.id.cv2);
@@ -164,6 +163,11 @@ public class Meat extends AppCompatActivity implements NavigationView.OnNavigati
 
             case R.id.nav_ingredients:
                 i= new Intent(this, Ingredients.class);
+                startActivity(i);
+                break;
+
+            case R.id.nav_upload:
+                i= new Intent(this, DataEntryActivity.class);
                 startActivity(i);
                 break;
 

@@ -148,7 +148,9 @@ public class ViewRecipe extends AppCompatActivity implements NavigationView.OnNa
                 startActivity(intent);
                 break;
 
-            default:
+            case R.id.nav_upload:
+                intent= new Intent(this, DataEntryActivity.class);
+                startActivity(intent);
                 break;
         }
         drawerLayout.closeDrawer(GravityCompat.START);

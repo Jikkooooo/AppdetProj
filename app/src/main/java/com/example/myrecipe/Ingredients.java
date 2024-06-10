@@ -101,6 +101,11 @@ public class Ingredients extends AppCompatActivity implements NavigationView.OnN
 
             case R.id.nav_ingredients:
                 break;
+
+            case R.id.nav_upload:
+                i= new Intent(this, DataEntryActivity.class);
+                startActivity(i);
+                break;
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
